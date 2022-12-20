@@ -1,0 +1,17 @@
+h1{
+    text-align: center;
+    
+}
+
+.containerfilm{
+    border: 2px solid black;
+    padding: 20px;
+}
+
+.containerFilms{
+    display: flex;
+    margin: auto;
+    width: 70%;
+    justify-content: space-between;
+    
+}

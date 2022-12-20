@@ -15,7 +15,7 @@ class Movie{
     }
 
     public function genere(){
-        if($this->genre = 'commedia'){
+        if($this->genre == 'commedia'){
             return "il genere del film e commedia ";
         }else{
             return "Il genere del film non è commmedia ";
