@@ -5,18 +5,21 @@ class Movie{
     public $title;
     public $genre;
     public $year;
-    public $age;
-
-    public function __construct($title, $genre, $year, $age)
+    
+    public function __construct($title, $genre, $year)
     {
         $this -> title = $title;
-        $this -> genre = $title;
-        $this -> year = $title;
-        $this -> year = $age;
+        $this -> genre = $genre;
+        $this -> year = $year;
+        
     }
 
-    public function metodo(){
-        if($this->age)
+    public function genere(){
+        if($this->genre = 'commedia'){
+            return "il genere del film e commedia ";
+        }else{
+            return "Il genere del film non è commmedia ";
+        }
     }
 
 }
